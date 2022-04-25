@@ -28,6 +28,46 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+  	
+  	body {background: #eee;}
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+  </style>
 </head>
 
 <body>
@@ -80,7 +120,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/w2.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/we.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -107,7 +147,9 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/w4.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                      	<figure class="swing">
+                         <img src="assets/img/w4.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                         </figure>  
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
@@ -525,13 +567,12 @@
                 <div class="swiper-slide">
                   <div class="testimonial-box">
                     <div class="author-test">
-                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
+                      <img src="assets/img/josh1.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Josh</span>
                     </div>
                     <div class="content-test">
                       <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        As it gets tougher for design thinkers and developers to get users to find and download apps, you ‘have’ to think about engagement; in order to make your mobile app design relevant, valued and useful so it delights and hence retains users
                       </p>
                     </div>
                   </div>
@@ -541,7 +582,6 @@
             </div>
 
             <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
         </div> -->
           </div>
         </div>
@@ -558,7 +598,7 @@
                 Blog
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+           We ask the right questions to our stakeholders that centers around their target audience
               </p>
               <div class="line-mf"></div>
             </div>
@@ -568,26 +608,24 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                <a href="blog-single.html"><img src="assets/img/SEO.png" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Travel</h6>
+                    <h6 class="category">UX/UI Design</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="blog-single.html">UX Design</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                 Tasks as important as creating experiences that meet the needs of customers, improving the perception of the brand, and creating a solid link with their products often falls into the hands of the UX Designer
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/w4.jpeg" alt="" class="avatar rounded-circle">
+                    <span class="author">Joash Monda</span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -599,7 +637,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+                <a href="blog-single.html"><img src="assets/img/web.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -607,18 +645,17 @@
                     <h6 class="category">Web Design</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="blog-single.html">Website Design
+               </a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
+                 Variety is the spice of life
+              No two projects are the same, even children of the same mother, look different. 
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/owoche1.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Dr.Patrick Owoche</span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -630,26 +667,24 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                <a href="blog-single.html"><img src="assets/img/dev.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+                    <h6 class="category">Development</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="blog-single.html">ECommerce Website Development & Services</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                 We develop E-Commerce websites that are more than a brochure. Company website is meant to inspire action.
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <img src="assets/img/w4.jpeg" alt="" class="avatar rounded-circle">
+                    <span class="author">Joash Monda</span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -661,7 +696,6 @@
         </div>
       </div>
     </section><!-- End Blog Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
